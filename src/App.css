@@ -37,16 +37,26 @@
   }
 }
 
+/* .container {
+} */
+
 .minhaTabela {
-  width: 100%;
-  border: solid red 1px;
+  margin-left: 10%;
+  width: 80%;
+  border: solid black 1px;
 }
 
 .body {
+  width: 100%;
   text-align: center;
 }
 
 .formulario {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  border:solid black 1px;
   font-weight: bold;
   color: blue;
   background-color: lightblue;
@@ -56,6 +66,10 @@
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
+}
+
+.input {
+  max-width: 80%;
 }
 
 .email {
